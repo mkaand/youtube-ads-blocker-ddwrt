@@ -114,18 +114,18 @@ remote-control:
 
 Add custom script to your router. This code pulls regenerated Youtube Ad block rules from PHP file.
 
-[QUOTE]
+
 #!/bin/bash
 
 #PULL YOUTUBE AD BLOCK
 youtubeconfig=/tmp/mnt/sda1/Backups/jffs/unbound/youtube.conf
 youtube="https://YOUR_HOSTING_GOES_HERE/youtube.php" 
 youtubeads=$( curl -s --insecure "$youtube" -o  "$youtubeconfig")
-[/QUOTE]
+
 
 ## STEP FIVE: ADD CRONJOB TO RUN CUSTOM.SH
-[QUOTE]
+
 */15 * * * * root sh /tmp/custom.sh #Runs every 15 minutes, You can change it.
-[/QUOTE]
+
 
 That's it. No more Youtube Video ADs will show up.
