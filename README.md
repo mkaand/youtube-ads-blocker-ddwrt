@@ -1,4 +1,4 @@
-# Blocking all Youtube video Advertisements
+# Blocking All Youtube Video Advertisements
 Youtube Video ADs blocker for DDWRT with Unbound DNS
 
 Hi Everyone,
@@ -18,7 +18,7 @@ There are several Youtube ADs hostnames lists on the internet. My code merges tw
 
 ## STEP ONE: PREPARE PHP FILE FOR UNBOUND DNS
 
-You can download my PHP file via github (It is too big to share here). This PHP file prepares a rules to block youtube ADs for Unbound DNS. Output of my PHP file like that:
+You can download my PHP file via here https://github.com/mkaand/youtube-ads-blocker-ddwrt/blob/master/youtube.php This PHP file prepares a rules to block youtube ADs for Unbound DNS. Output of my PHP file like that:
 
 local-data: "r1---sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
 local-data: "r1.sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
