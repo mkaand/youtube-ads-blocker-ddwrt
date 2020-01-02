@@ -30,15 +30,13 @@ local-data: "r3.sn-25ge7n76.googlevideo.com A 127.0.0.1"
 local-data: "r4---sn-25ge7n76.googlevideo.com A 127.0.0.1"
 local-data: "r4.sn-25ge7n76.googlevideo.com A 127.0.0.1"
 local-data: "r5---sn-25ge7n76.googlevideo.com A 127.0.0.1"
-<
 
 ## STEP TWO: ADD STARTUP LINES
 
-[QUOTE]
+<
 sleep 5
 stopservice unbound -f
 unbound -c /tmp/mnt/sda1/Backups/jffs/unbound/unbound.conf
-[/QUOTE]
 
 Above code stops Unbound service and starts with new configuration. You can change config file location accordingly. 
 
