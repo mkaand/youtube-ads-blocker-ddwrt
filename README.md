@@ -115,12 +115,11 @@ remote-control:
 
 Add custom script to your router. This code pulls regenerated Youtube Ad block rules from PHP file.
 
-#!/bin/bash
-
-#PULL YOUTUBE AD BLOCK
-youtubeconfig=/tmp/mnt/sda1/Backups/jffs/unbound/youtube.conf
-youtube="https://YOUR_HOSTING_GOES_HERE/youtube.php" 
-youtubeads=$( curl -s --insecure "$youtube" -o  "$youtubeconfig")
+#!/bin/bash<br>
+#PULL YOUTUBE AD BLOCK<br>
+youtubeconfig=/tmp/mnt/sda1/Backups/jffs/unbound/youtube.conf<br>
+youtube="https://YOUR_HOSTING_GOES_HERE/youtube.php"<br>
+youtubeads=$( curl -s --insecure "$youtube" -o  "$youtubeconfig")<br>
 
 
 ## STEP FIVE: ADD CRONJOB TO RUN CUSTOM.SH
