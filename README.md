@@ -33,8 +33,10 @@ You can download my PHP file via github (It is too big to share here). This PHP 
 ## STEP TWO: ADD STARTUP LINES
 
 >sleep 5
-stopservice unbound -f
-unbound -c /tmp/mnt/sda1/Backups/jffs/unbound/unbound.conf
+
+>stopservice unbound -f
+
+>unbound -c /tmp/mnt/sda1/Backups/jffs/unbound/unbound.conf
 
 Above code stops Unbound service and starts with new configuration. You can change config file location accordingly. 
 
