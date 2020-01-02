@@ -43,11 +43,8 @@ Above code stops Unbound service and starts with new configuration. You can chan
 Your local hosts and settings should be different than mine. So the best way just copy the original /tmp/unbound.conf file and add lines that I indicated below:
 
 server:
-
 verbosity: 1
-
 interface: 0.0.0.0
-
 interface: ::0
 outgoing-num-tcp: 10
 incoming-num-tcp: 10
