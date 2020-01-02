@@ -20,15 +20,15 @@ There are several Youtube ADs hostnames lists on the internet. My code merges tw
 
 You can download my PHP file via github (It is too big to share here). This PHP file prepares a rules to block youtube ADs for Unbound DNS. Output of my PHP file like that:
 
-local-data: "r1---sn-25ge7n76.googlevideo.com A 127.0.0.1"
-local-data: "r1.sn-25ge7n76.googlevideo.com A 127.0.0.1"
-local-data: "r2---sn-25ge7n76.googlevideo.com A 127.0.0.1"
-local-data: "r2.sn-25ge7n76.googlevideo.com A 127.0.0.1"
-local-data: "r3---sn-25ge7n76.googlevideo.com A 127.0.0.1"
-local-data: "r3.sn-25ge7n76.googlevideo.com A 127.0.0.1"
-local-data: "r4---sn-25ge7n76.googlevideo.com A 127.0.0.1"
-local-data: "r4.sn-25ge7n76.googlevideo.com A 127.0.0.1"
-local-data: "r5---sn-25ge7n76.googlevideo.com A 127.0.0.1"
+local-data: "r1---sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
+local-data: "r1.sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
+local-data: "r2---sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
+local-data: "r2.sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
+local-data: "r3---sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
+local-data: "r3.sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
+local-data: "r4---sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
+local-data: "r4.sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
+local-data: "r5---sn-25ge7n76.googlevideo.com A 127.0.0.1"<br>
 
 ## STEP TWO: ADD STARTUP LINES
 
