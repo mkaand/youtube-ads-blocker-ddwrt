@@ -114,7 +114,6 @@ remote-control:
 
 Add custom script to your router. This code pulls regenerated Youtube Ad block rules from PHP file.
 
-
 #!/bin/bash
 
 #PULL YOUTUBE AD BLOCK
