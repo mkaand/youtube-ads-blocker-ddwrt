@@ -6,6 +6,8 @@ Created by CryptoYakari
 https://twitter.com/CryptoYakari
 
 This PHP script generates Unbound blocking rules for Youtube Advertisement Hosts
+Static list https://raw.githubusercontent.com/anudeepND/youtubeadsblacklist/master/domainlist.txt
+Dynamic list https://api.hackertarget.com/hostsearch/?q=googlevideo.com
 */
 ?>
 local-data: "r1---sn-25ge7n76.googlevideo.com A 127.0.0.1"
