@@ -7,6 +7,7 @@ https://twitter.com/CryptoYakari
 
 This PHP script generates Unbound blocking rules for Youtube Advertisement Hosts
 Static list https://raw.githubusercontent.com/anudeepND/youtubeadsblacklist/master/domainlist.txt
+Static list Mirror https://raw.githubusercontent.com/mkaand/youtube-ads-blocker-ddwrt/master/domainlist.txt
 Dynamic list https://api.hackertarget.com/hostsearch/?q=googlevideo.com
 */
 ?>
