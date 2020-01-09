@@ -7,7 +7,7 @@ I was working on blocking all Youtube video ADs. I guess I found a solution and 
 
 Youtube pushes ADs thru thousands of hostnames. I blocked all of them via Unbound DNS. Official Youtube app shows yellow AD fractions on timeline of the video but video will never display. Here is the step by step tutorial.
 
-Watch in actions (How it works)
+Watch in action (How it works)<br>
 https://dai.ly/x7q9jjm
 
 ## Requirments:
