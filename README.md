@@ -7,6 +7,9 @@ I was working on blocking all Youtube video ADs. I guess I found a solution and 
 
 Youtube pushes ADs thru thousands of hostnames. I blocked all of them via Unbound DNS. Official Youtube app shows yellow AD fractions on timeline of the video but video will never display. Here is the step by step tutorial.
 
+Watch in actions (How it works)
+https://dai.ly/x7q9jjm
+
 ## Requirments:
 
 * DDWRT router with Unbound (Recursive DNS) feature (You can check SETUP screen. Make sure you will see and checked "Recursive DNS Resolving (Unbound)" feature on DDWRT). I use DD-WRT v3.0-r38060 std 12/20/18 firmware and WRT1900AC v1 router.
